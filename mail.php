@@ -20,7 +20,7 @@ function send_mail($recipient, $subject, $message)
   $mail->Host       = "smtp.gmail.com";
   //$mail->Host       = "smtp.mail.yahoo.com";
   $mail->Username   = "khuukhonlam@gmail.com";
-  $mail->Password   = "Lam@0913775686";
+  $mail->Password   = "******";
 
   $mail->IsHTML(true);
   $mail->AddAddress($recipient, "esteemed customer");
